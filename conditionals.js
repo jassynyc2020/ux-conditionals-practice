@@ -74,17 +74,17 @@ Hint Two: You can either do this with nested if statements, or you can do it wit
 a chain of if else statements, some of those just might need multible conditions (like: if (a && b) )
 */
 
-let number = 122;
-    if (number > 10 && number < 20) {
-    console.log('Between 10 and 20!');
+let number = 5;
+if (number > 10 && number < 20) {
+  console.log("Between 10 and 20!");
 }
-    if (number >= 20) {
-    console.log('20 or greater!');
+if (number >= 20) {
+  console.log("20 or greater!");
 }
-    if (number === 16) {
-    console.log('16!'); 
+if (number === 16) {
+  console.log("16!");
 }
-    if (number <= 10) {
-    console.log('10 or less!');
+if (number <= 10) {
+  console.log("10 or less!");
 }
 // Your code here.

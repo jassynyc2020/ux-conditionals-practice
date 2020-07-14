@@ -29,7 +29,7 @@ Exercise Two
 Determining a color
 */
 
-let color = "yellow";
+let color = "blue";
 if (color === "blue") {
   console.log("The sky is blue.");
 } else if (color === "red") {
